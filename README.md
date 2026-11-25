@@ -3,6 +3,10 @@
 A minimal scikit-learn model for the Titanic survival dataset. It is set up so an
 automated research loop can improve the features and model while the scoring stays fixed.
 
+Author note - directed by Ian, written by claude, created as a base repo for experiments in PLAYGROUP
+using Karpathy's autoresearch idea. Can this code be automatically evolved (yes of course it can) to a better
+score using sklearn, via claude, evaluated by the `evaluate.py` script?
+
 ## Setup
 
 You need [uv](https://docs.astral.sh/uv/getting-started/installation/).
