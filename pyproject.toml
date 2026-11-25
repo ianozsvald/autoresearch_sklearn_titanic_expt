@@ -1,0 +1,12 @@
+[project]
+name = "titanic-autoresearch"
+version = "0.1.0"
+description = "Minimal sklearn Titanic baseline with a fixed evaluator, for an autoresearch loop"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+]
+
+[tool.uv]
+package = false
